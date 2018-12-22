@@ -20,29 +20,32 @@
     	{% include "header.html" %}
         <div class="sc-title"><span>.</span>University</div>
         <section id="select-container">
-            <select>
-                <option>계열</option>
-            </select>
-
-            <select>
-                <option>학과</option>
-            </select>
+            <div class="styled-select-1">
+                <select property="voucherCategoryClass">
+    		        <option value="0">계열</option>
+    	        </select>
+            </div>
+            <div class="styled-select-2">
+                <select property="voucherCategoryClass">
+    		        <option value="0">학과</option>
+    	        </select>
+            </div>
         </section>
         <section id="container">
             <div class="university">
-                <div class="university_img"></div>
-                <div class="title">ㅇㅇ대학교</div>
-                <div class="duration">ㅇㅇ학과</div>
+                <div class="university_img" style="background: url('../static/img/서울대.jpg'); background-size: cover;"></div>
+                <div class="title">서울대학교</div>
+                <div class="duration">시각디자인과</div>
             </div>
             <div class="university">
-                <div class="university_img"></div>
-                <div class="title">ㄴㄴ대학교</div>
-                <div class="duration">ㄴㄴ학과</div>
+                <div class="university_img" style="background: url('../static/img/홍대.jpg'); background-size: cover;"></div>
+                <div class="title">홍익대학교</div>
+                <div class="duration">시각디자인과</div>
             </div>
             <div class="university">
-                <div class="university_img"></div>
-                <div class="title">ㅁㅁ대학교</div>
-                <div class="duration">ㅁㅁ학과</div>
+                <div class="university_img" style="background: url('../static/img/이화여대.jpg'); background-size: cover;"></div>
+                <div class="title">이화여자대학교</div>
+                <div class="duration">시각디자인과</div>
             </div>
         </section>
 
