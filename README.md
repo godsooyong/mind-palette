@@ -28,11 +28,18 @@
    $ ./install.sh
 ```
 
-
 실행 방법
 -------
 
 웹 서버 실행 방법은 다음과 같습니다
 ```
    $ python run.py -p 2028
+```
+
+배포 방법
+-------
+
+heroku를 사용합니다.
+```
+   $ git push heroku master
 ```
