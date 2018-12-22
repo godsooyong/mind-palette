@@ -1,8 +1,20 @@
 #container{
     width:70%;
+<<<<<<< HEAD
     margin:150px auto;
     text-align: center;
 }
+=======
+    margin:20px auto;
+    text-align: center;
+}
+#select-container{
+    width:50%;
+    margin:150px auto 0px;
+    text-align: left;
+    height: 50px;
+}
+>>>>>>> 2fdf219280fb4d4831db5a352aa7d6738420b9c0
 .university{
     display: inline-block;
     width: 210px;
