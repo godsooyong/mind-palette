@@ -1,0 +1,33 @@
+#container{
+    width:70%;
+    margin:150px auto;
+    text-align: center;
+}
+.university{
+    display: inline-block;
+    width: 210px;
+    text-align: center;
+    margin: 20px;
+}
+.university .title{
+    margin-top: 1.3em;
+    font-weight: 400;
+    color:gray;
+    font-size:1em;
+
+}
+
+.university .duration{
+    margin-top: 0.7em;
+    font-weight: 100;
+    font-size:0.7em;
+
+}
+.university_img{
+    background-color: #dcdcdc;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
