@@ -78,7 +78,7 @@ div.container
 				top: 50%; transform: translateY(-50%);
 			}
 			
-	nav
+	#menu_nav
 	{
 		width: 400px;
 		height: 100%;
@@ -90,27 +90,36 @@ div.container
 		top: 0;
 		
 		z-index: 1;
-	}
-	nav ul
-	{
-		width: 100%;
-		height: 100%;
 		
-		margin-top: 150px;
-		margin-left: 130px;
+		display: none;
 	}
-		nav ul li
+	#menu_nav ul
+	{
+		width: 75%;
+		height: 60%;
+		
+		margin-top: 130px;
+	}
+		#menu_nav ul li
 		{
 			list-style: none;
 			
-			line-height: 80px;
+			line-height: 85px;
+			
+			text-align: right;
 		}
-			nav ul li a
+			#menu_nav ul li a
 			{
 				text-decoration: none;
 				
 				color: #595959;
-				font-family: 'Nanum Square';
-				font-weight: 100;
+				font-family: 'Roboto', sans-serif;
+				font-weight: 600;
 				font-size: 24pt;
+			}
+			#menu_nav ul li a:hover
+			{
+				color: #5da2d5;
+				font-weight: 800;
+				transition: 0.5s;
 			}
