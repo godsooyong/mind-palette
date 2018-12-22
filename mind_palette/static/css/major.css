@@ -24,7 +24,6 @@ div.sc-wrap{
 	width: 700px;
 	height: 600px;
 	
-	border: 1px solid black;
 	
 	margin: 0 auto;
 	
@@ -41,11 +40,12 @@ div.sc-wrap ul li{
 	width: 228px;
 	height: 290px;
 	
-	border: 1px solid #000;
 	display: inline-block;
 	
 	margin: 0;
 	padding: 0;
+	
+	position: relative;
 }
 
 div.circle{
@@ -56,4 +56,20 @@ div.circle{
 	background: #f5e7cc;
 	
 	margin: 0 auto;
+}
+div.circle-title{
+	position: absolute;
+	left: 50%; transform: translateX(-50%);
+	margin-top: 20px;
+	
+	color: #a4a4a4;
+	font-weight: bold;
+}
+div.cc-content{
+	color: #a4a4a4;
+	font-size: 8pt;
+	
+	position: absolute;
+	left: 50%; transform: translateX(-50%);
+	margin-top: 50px;
 }
