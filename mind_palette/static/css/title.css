@@ -1,0 +1,16 @@
+div.sc-title{
+	color: #9d9d9d;
+	font-family: 'Nanum Square';
+	font-weight: 900;
+	font-size: 28pt;
+
+	position: absolute;
+
+	left: 50%; transform: translateX(-50%);
+	top: 70px;
+}
+div.sc-title span{
+	color: #f2d250;
+	font-family: 'Roboto', sans-serif;
+	font-size: 72pt;
+}
